@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #313428;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.crement{
+ position: relative;
+ left: 500px;
+ top: 50px;
+ bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+h1{
+  position: relative;
+  left: 190px;
+}
+#plus{
+  background-color: green;
+  font-size: 30px;
+  margin: 20px;
+}
+#minus{
+  background-color:red;
+  font-size: 30px;
 }
